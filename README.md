@@ -7,7 +7,7 @@ Once the [Arduino Core for RP2040](https://blog.arduino.cc/2021/01/20/welcome-ra
 
 Here is a quick way to compile the example given in this repository.
 
-### Install Pico SDK
+### 1. Install Pico SDK
 
 First, make sure you the Pico SDK properly installed and configured:
 
@@ -21,7 +21,7 @@ echo "export PICO_SDK_PATH=$HOME/pico-sdk" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### Compile Example
+### 2. Compile Example
 
 Once the Pico SDK is ready compile the example: 
 
@@ -37,7 +37,7 @@ To flash, hold the boot button, plug the USB and run:
 cp pico_micro_ros_example.uf2 /media/$USER/RPI-RP2
 ```
 
-### Start Micro-ROS Agent
+### 3. Start Micro-ROS Agent
 Micro-ROS follows the client-server architecture, so you need to start the Micro-ROS Agent:
 
 ```bash
