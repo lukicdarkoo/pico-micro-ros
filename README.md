@@ -52,7 +52,7 @@ docker run -it --rm -v /dev:/dev --privileged --net=host microros/micro-ros-agen
 ## How Micro-ROS is compiled?
 
 Micro-ROS is precompiled for Raspberry Pi Pico in [`uros_ws/firmware/build`](uros_ws/firmware/build).
-If you want to compile by yourself then check the [`uros_ws`](uros_ws) directory.
+If you want to compile it by yourself then check the [`uros_ws`](uros_ws) directory.
 
 ## How to use Pico SDK?
 
