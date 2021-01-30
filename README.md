@@ -44,7 +44,7 @@ Micro-ROS follows the client-server architecture, so you need to start the Micro
 docker run -it --rm -v /dev:/dev --privileged --net=host microros/micro-ros-agent:foxy serial --dev /dev/ttyACM0 -b 115200
 ```
 
-## What files are relavant?
+## What files are relevant?
 - `pico_ros.c`: Contains the board specific implementation of the serial transport (no change needed).
 - `CMakeLists.txt`: CMake file.
 - `pico_micro_ros_example.c`: The actual ROS 2 publisher.
