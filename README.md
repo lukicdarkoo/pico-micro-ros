@@ -41,8 +41,7 @@ cp pico_micro_ros_example.uf2 /media/$USER/RPI-RP2
 Micro-ROS follows the client-server architecture, so you need to start the Micro-ROS Agent:
 
 ```bash
-stty -F /dev/ttyACM0 9600
-docker run -it --rm -v /dev:/dev --privileged --net=host microros/micro-ros-agent:foxy serial --dev /dev/ttyACM0 -b 9600
+docker run -it --rm -v /dev:/dev --privileged --net=host microros/micro-ros-agent:foxy serial --dev /dev/ttyACM0 -b 115200
 ```
 
 ## What files are relavant?
