@@ -15,7 +15,7 @@ touch firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/ser
 ros2 run micro_ros_setup build_firmware.sh ${PWD}/toolchain.cmake ${PWD}/colcon.meta
 ```
 
-## Relavant Files
+## Relevant Files
 
 Here is a list of the relavant files:
 - `colcon.meta`: Arguments used to configure individal ament packages.
