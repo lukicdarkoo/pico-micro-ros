@@ -1,3 +1,5 @@
+> **WARNING: Development of this repository is taken over by the [micro-ROS](https://github.com/micro-ROS/) team. Please go to the [micro-ROS/micro_ros_raspberrypi_pico_sdk](https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk) repository that is actively maintained.**
+
 # Raspberry Pi Pico and ROS 2
 
 The Pico is an amazing microcontroller and I couldn't wait for ROS 2 support or Arduino Core, so here is my approach.
